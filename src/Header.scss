@@ -1,0 +1,34 @@
+.header {
+    padding: 1rem;
+}
+
+.fright {
+    .header {
+        font-size: 100pt;
+    }
+
+    @media (max-width: 638px) {
+        .header.fright {
+            font-size: 95pt;
+        }
+    }
+
+    @media (max-width: 609px) {
+        .header.fright {
+            font-size: 90pt;
+        }
+    }
+
+
+    @media (max-width: 590px) {
+        .header.fright {
+            font-size: 50pt;
+        }
+    }
+
+    @media (max-width: 335px) {
+        .header.fright {
+            font-size: 45pt;
+        }
+    }
+}

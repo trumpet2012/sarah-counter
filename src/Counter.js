@@ -7,8 +7,10 @@ class Counter extends Component {
   render() {
     return (
       <div className="counter">
-        <Header text="She returns in"/>
-        <Countdown endTime='August 25 2018'/>
+        <div className="counter-wrapper">
+          <Header text="She returns in"/>
+          <Countdown endTime='August 25 2018'/>
+        </div>
       </div>
     );
   }

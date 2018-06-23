@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './Counter';
 import registerServiceWorker from './registerServiceWorker';
+import ThemeSwitcher from "./ThemeSwitcher";
 
-ReactDOM.render(<Counter />, document.getElementById('root'));
+ReactDOM.render(<ThemeSwitcher />, document.getElementById('root'));
 registerServiceWorker();
