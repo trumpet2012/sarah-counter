@@ -1,0 +1,30 @@
+.header {
+    font-size: 100pt;
+    padding: 1rem;
+}
+
+
+@media (max-width: 638px) {
+    .header {
+        font-size: 95pt;
+    }
+}
+
+@media (max-width: 609px) {
+    .header {
+        font-size: 90pt;
+    }
+}
+
+
+@media (max-width: 590px) {
+    .header {
+        font-size: 50pt;
+    }
+}
+
+@media (max-width: 335px) {
+    .header {
+        font-size: 45pt;
+    }
+}

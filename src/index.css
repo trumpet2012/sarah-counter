@@ -1,0 +1,10 @@
+body {
+  background-image: url("/sarah.png");
+  background-size: cover;
+  background-position: 2%;
+  color: #0c0c0c;
+  margin: 0;
+  padding: 0;
+  font-family: 'Just Me Again Down Here', sans-serif;
+  font-weight: bold;
+}
