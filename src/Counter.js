@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Counter.css';
 import Countdown from './Countdown';
 import Header from './Header';
