@@ -45,6 +45,15 @@
     }
 }
 
+.cheesy {
+    .time {
+        font-size: 65pt;
+    }
+    .label {
+        font-size: 40pt;
+    }
+}
+
 .time:not(:first-of-type) {
     padding-left: 0.5rem;
 }

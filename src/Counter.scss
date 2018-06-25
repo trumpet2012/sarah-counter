@@ -16,3 +16,16 @@
         background: rgba(255, 255, 255, 0.5);
     }
 }
+
+.cheesy {
+    .counter {
+        font-family: sans-serif;
+    }
+
+    .counter-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+}

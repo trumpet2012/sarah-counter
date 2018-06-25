@@ -28,6 +28,12 @@
     display: flex;
     flex-direction: column; } }
 
+.cheesy .time {
+  font-size: 65pt; }
+
+.cheesy .label {
+  font-size: 40pt; }
+
 .time:not(:first-of-type) {
   padding-left: 0.5rem; }
 

@@ -44,7 +44,6 @@ class Countdown extends Component {
     let days = Math.floor( t/(1000*60*60*24) );
 
     if (this.state.seconds !== seconds){
-      console.log("animatingSeconds");
       this.setState({animateSeconds: true});
     }
 
